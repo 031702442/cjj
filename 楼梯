@@ -19,8 +19,8 @@ int main()
 					dir[i]=2;
 				}
 				if(time[i]<=t&&begin[i]==j&&dir[i]==0&&j==1)
-				begin[i]=0;
-				dir[i]=2;
+				{begin[i]=0;
+				dir[i]=2;}
 			}
 			for(i=0;i<5;i++)
 			{
